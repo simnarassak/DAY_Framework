@@ -6,7 +6,7 @@ import multivariate_models as mm
 import RNN_forecastmodel as rnn_fore
 import TFT_forecastmodel as tft_fore
 '''
-#Use the below code if your using your own data
+#Use the below code do data preprocessing if your using your own data
 #avo_data=prep.dataprep(pd.read_csv(""))
 #weather_data=prep.weather_VI_dataprep(pd.read_csv(""))
 #vegetation_data=prep.weather_VI_dataprep(pd.read_csv(""))
@@ -16,11 +16,9 @@ import TFT_forecastmodel as tft_fore
 #dataset1=dataset1.set_index('ds')
 #check_and_visualize_normality(dataset1)
 #dataset1=dataset1.reset_index()
-# I am giving synthetic data in this repo, please use if required to use global model You need multiple dataset
-#here I am using same but please use different data
 '''
-avo_data1=pd.read_csv("synthetic_data1.csv")
-avo_data2=pd.read_csv("synthetic_data2.csv")
+avo_data1=pd.read_csv("data1.csv")
+avo_data2=pd.read_csv("data2.csv")
 dataset1=avo_data1.copy()
 dataset2=avo_data2.copy()
 TS_data1,covs1,train1,test1,yield_scale,cov_scale=prep.DL_forecast(dataset1)

@@ -148,7 +148,7 @@ def tft_forecast(train1,train2,test1,test2,tn,covs1,covs2):
     return full_predictions
 
     # Use the function
-    pred_RNN4 = windowed_predict(TFT4, train1, covs1, len(test1), window_size=14, gap=30)
+    pred_TFT4 = windowed_predict(TFT4, train1, covs1, len(test1), window_size=14, gap=30)
 
     # Transform the predictions and test data
     vt = tn.inverse_transform(test1)

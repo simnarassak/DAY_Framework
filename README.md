@@ -5,9 +5,9 @@ The DAY framework employs machine-learning techniques to integrate weather data,
 
 I have conducted a comprehensive comparison of various univariate and multivariate models for time series forecasting. The univariate models evaluated include Linear Regression, Exponential Smoothing, Kalman Forecaster, Random Forest, XGBoost, and Temporal Fusion Transformer (TFT). For the multivariate analysis, I examined Multivariate Regression, Bayesian Ridge Regression, Random Forest, XGBoost, Vanilla Recurrent Neural Network (Vanilla-RNN), Long Short-Term Memory Recurrent Neural Network (LSTM-RNN), Gated Recurrent Unit Recurrent Neural Network (GRU-RNN),TFT.  Additionally, I also included RNN and TFT model’s global modeling characteristics. 
 
-The below figure Forecasting performed using GRU-RNN
+The figure below shows the forecasting performed using GRU-RNN
 
 <img src="images/RNN_Forecastplot.png" width="\linewidth"/>
 
-The below figure Forecasting performed using TFT
+The figure below shows the forecasting performed using TFT
 <img src="images/TFT_Forecastplot.png" width="\linewidth"/>

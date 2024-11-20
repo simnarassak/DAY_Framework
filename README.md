@@ -20,3 +20,4 @@ The list of the files and their usage are given below:
 3. multivariate_model.py-comparative study of multivariate model (data with environment features)
 4. RNN_forecastmodel.py-use to perform the model mentioned in paper (SOM,SOMEV,MOM,MOMEV), please select the model based on experiment
 5. TFT_forecastmodel.py-use to perform the model mentioned in paper (SOM,SOMEV,MOM,MOMEV), please select the model based on experiment
+6. avo_prediction.py-use to run all the files above

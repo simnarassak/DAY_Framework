@@ -1,5 +1,5 @@
 # Day Framework
-The DAY framework employs machine-learning techniques to integrate weather data, vegetation indices, historical yield information, and management practices for forecasting daily avocado yield volume. The framework consists of six key processes, data-data acquisition, data pre-processing, model training, model validation and comparison, selected model testing and feature influence and yield variance. Figure \ref{fig:ML_Framework} illustrates the architecture of DAY Framework.
+The DAY framework employs machine-learning techniques to integrate weather data, vegetation indices, historical yield information, and management practices for forecasting daily avocado yield volume. The framework consists of six key processes, data-data acquisition, data pre-processing, model training, model validation and comparison, selected model testing and feature influence and yield variance. Figure:ML_Framework illustrates the architecture of DAY Framework.
 
 <img src="images/ML_Framework.png" width="\linewidth"/>
 

@@ -1,5 +1,5 @@
 # Day Framework
-This folder includes the python codes for the implementation of the methods covered in the article "DAY: Data-Driven Avocado Yield Forecasting Machine Learning Framework" by Simna Rassak, The University of Waikato and ESR.
+This folder includes the python codes for the implementation of the methods covered in the article "DAY: Data-Driven Machine Learning Framework for Avocado Yield Forecasting" by Simna Rassak, The University of Waikato and ESR.
 
 The DAY framework employs machine-learning techniques to integrate weather data, vegetation indices, historical yield information, and management practices for forecasting daily avocado yield volume. The framework consists of six key processes, data-data acquisition, data pre-processing, model training, model validation and comparison, selected model testing and feature influence and yield variance. Figure:ML_Framework illustrates the architecture of DAY Framework.
 
